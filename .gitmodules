@@ -1,0 +1,3 @@
+[submodule "core/@finde/nofy"]
+	path = core/@finde/nofy
+	url = git@github.com:finde/nofy.git
