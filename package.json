@@ -1,0 +1,25 @@
+{
+  "name": "nofy-example",
+  "version": "1.0.0",
+  "description": "```bash git submodule update --init --recursive cd core/@finde/nofy && yarn && cd ../../.. docker-compose build && docker-compose up ```",
+  "main": "-",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "basic": "docker-compose -f docker-compose.basic.yml up --build",
+    "auth": "docker-compose -f docker-compose.auth.yml up --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finde/nofy-example.git"
+  },
+  "keywords": [
+    "nofy",
+    "example"
+  ],
+  "author": "Finde Xumara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finde/nofy-example/issues"
+  },
+  "homepage": "https://github.com/finde/nofy-example#readme"
+}

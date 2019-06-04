@@ -2,11 +2,11 @@ version: "2.3"
 services:
   basic:
     build:
-      context: ./basic
+      context: ./auth
     ports:
-      - "3701:3700"
+      - "3700:3700"
     volumes:
-      - "./basic:/app"
+      - "./auth:/app"
       - "/app/node_modules"
       - "./core/@finde:/app/node_modules/@finde"
 #    links:

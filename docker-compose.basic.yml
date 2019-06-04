@@ -1,0 +1,19 @@
+version: "2.3"
+services:
+  basic:
+    build:
+      context: ./basic
+    ports:
+      - "3700:3700"
+    volumes:
+      - "./basic:/app"
+      - "/app/node_modules"
+      - "./core/@finde:/app/node_modules/@finde"
+#    links:
+#      - db
+#      - redis
+#      - deepfact
+#    depends_on:
+#      - db
+#      - redis
+#      - deepfact
