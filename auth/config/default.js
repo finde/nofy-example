@@ -6,7 +6,8 @@ module.exports = {
       domain: '3duniversum.eu.auth0.com',
       clientID: 'rWTJYHuONWw_c24EEx1XTLC1dktyzbwN',
       clientSecret: 'XxhzpUilzHs9jxi9Ierr4Nb2D2xVoQ8Xn76gPmemJKuUCYrMR0SsGPct7XMEqU0g',
-      callbackURL: '/api/v1/auth/callback'
+      callbackURL: 'http://localhost:3701/api/v1/auth/callback',
+      logoutURL: 'http://localhost:3701/'
     }
   },
   api: {

@@ -4,7 +4,7 @@ services:
     build:
       context: ./basic
     ports:
-      - "3700:3700"
+      - "3701:3700"
     volumes:
       - "./basic:/app"
       - "/app/node_modules"
